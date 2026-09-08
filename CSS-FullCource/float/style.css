@@ -1,0 +1,15 @@
+body {
+    border: 3px solid;
+    border-radius: 20px;
+    display: flow-root;
+}
+
+#img1 {
+    float: left;
+    margin: 10px;
+}
+
+#img2 {
+    float: right;
+    margin: 10px;
+}
