@@ -1,0 +1,12 @@
+h1 {
+    /* first no is to horizontal off set 2nd for vertical 3rd for blur radius 4th is for colour */
+    text-shadow: 10px 10px 5px red, 10px 0 10px blue, 0 10px 20px yellow;
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    box-shadow: 10px 10px 5px red, 10px 0 10px blue, 0 10px 20px yellow;
+
+}
