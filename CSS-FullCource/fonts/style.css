@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url(./founts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+h1 {
+    /* First if not web font installed then it will use 2nd and go on */
+    font-family: "Open Sans", Verdana, Arial, Helvetica;
+}
+
+p {
+    /* if it have any space in the middel the n use " " */
+    font-family: "Roboto Slab", "Courier New", Courier, monospace;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
