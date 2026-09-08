@@ -92,6 +92,17 @@ footer {
     padding: 10px;
 }
 
+.gallery .description i {
+    color: #555;
+    margin-right: 4px;
+}
+
+.gallery .description p {
+    margin: 5px 0 0 0;
+    font-size: 13px;
+    color: #666;
+}
+
 .gallery:hover {
     border: 1px solid #777;
 }
