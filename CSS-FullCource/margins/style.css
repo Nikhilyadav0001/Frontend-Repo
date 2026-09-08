@@ -1,0 +1,25 @@
+body {
+    margin: 0%;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    font-size: 5em;
+}
+
+#box1 {
+
+    background-color: rgb(59, 104, 143);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+
+}
+
+#box2 {
+    background-color: rgb(89, 148, 207);
+    margin: auto;
+}
