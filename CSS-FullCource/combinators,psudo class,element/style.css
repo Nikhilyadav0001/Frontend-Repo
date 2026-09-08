@@ -1,0 +1,82 @@
+#id1 {
+    border: 2px solid red;
+}
+
+/* Descendant Combinator - Selects all <p> elements that are descendants of <div id="id1"> */
+#id1 p {
+    background-color: aqua;
+}
+
+/* General Sibling Combinator - Selects all <p> elements that are siblings of <div id="id1"> and follow it */
+#id1~p {
+    border: 2px solid rgb(96, 58, 89);
+}
+
+/* 
+Adjacent Sibling Combinator - Selects the immediate <p> element that follows <div id="id1"> only p4 */
+#id1+p {
+    border-right: 2px solid rgb(169, 186, 54);
+}
+
+
+#id1>p {
+    border-left: 5px solid green;
+}
+
+/* 
+- Link pseudo-class: Applies to links that have not been visited yet.
+- Visited pseudo-class: Applies to links that have been visited by the user.
+- Hover pseudo-class: Applies to links when the user hovers over them with the mouse.
+- Active pseudo-class: Applies to links when they are being clicked (active state).
+*/
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: yellow;
+}
+
+#greeting p {
+    background-color: yellow;
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p {
+    display: block;
+}
+
+
+
+h1::first-letter {
+    font-size: 3em;
+    color: red;
+}
+
+p::first-line {
+    background-color: blueviolet;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p::selection {
+    color: aquamarine;
+    background-color: green;
+}
+
+#fruits li::before {
+    content: "💕";
+}
+
+#fruits li::after {
+    content: " 🍎";
+}
