@@ -1,0 +1,21 @@
+/* if text extends the border thern how to show it */
+div {
+    border: 5px solid;
+    height: 100px;
+    width: 500px;
+    overflow: auto;
+}
+
+.child {
+    background-color: red;
+    height: 100px;
+    width: 50%;
+    display: inline-block;
+}
+
+span {
+    background-color: blue;
+    height: 100px;
+    width: 50%;
+    display: inline-block;
+}
