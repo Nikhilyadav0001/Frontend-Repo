@@ -1,0 +1,33 @@
+#id1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* relative position to its own current position */
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#id2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* absolute position to its nearest positioned parent */
+    position: absolute;
+}
+
+#id3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* fixed position to the viewport */
+    position: fixed;
+}
+
+body {
+    background-image: url(./image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
