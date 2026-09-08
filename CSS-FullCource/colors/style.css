@@ -1,0 +1,20 @@
+body {
+    /* named color */
+    background-color: azure;
+}
+
+#para1 {
+    /* rgb color */
+    background-color: rgb(105, 222, 255);
+
+}
+
+#para2 {
+    /* hexadecimal color */
+    background-color: #ff0000;
+}
+
+#para3 {
+    /* hsl color */
+    background-color: hsl(289, 95%, 45%);
+}
