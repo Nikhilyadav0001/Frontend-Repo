@@ -1,0 +1,22 @@
+/* external css can be used in multiple html    */
+
+div {
+    text-align: center;
+    color: blueviolet;
+    background-color: aquamarine;
+    font-size: 50px;
+}
+
+/* for id */
+#h1ext {
+    color: brown;
+    font-size: 55px;
+    text-align: center;
+}
+
+/* for class */
+.abc {
+    color: darkgreen;
+    font-size: 55px;
+    text-align: center;
+}
