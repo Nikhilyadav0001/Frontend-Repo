@@ -1,0 +1,86 @@
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    background-color: blueviolet;
+    display: inline-block;
+}
+
+.pagination a.active {
+    background-color: chartreuse;
+    font-weight: bold;
+    border-radius: 5px
+}
+
+.pagination a:hover:not(.active) {
+    background-color: blue;
+    border-radius: 5px
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 16px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.dropdown .content {
+    display: none;
+    /* Hide by default */
+    position: absolute;
+    background-color: rgb(123, 123, 123);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* Links inside the dropdown */
+.dropdown .content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show dropdown menu on hover */
+.dropdown:hover .content {
+    display: block;
+}
+
+/* Change button background on hover */
+.dropdown:hover button {
+    background-color: rgb(167, 167, 167);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* Change link background on hover */
+.dropdown .content a:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    background-color: whitesmoke;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.navbar a:hover {
+    background-color: black;
+}
