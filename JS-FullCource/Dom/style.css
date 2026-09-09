@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+    color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    color: orange;
+}
+
+#click-me {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.heading {
+    font-weight: bold;
+}
